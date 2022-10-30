@@ -23,10 +23,8 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Paris
-      - URL=forticas.com
+      - URL=dev.forticas.com
       - SUBDOMAINS=www
-      - CERTPROVIDER=ZeroSSL
-      - EMAIL=houssem@forticas.com
     volumes:
       - ./config/swag:/config
     ports:
