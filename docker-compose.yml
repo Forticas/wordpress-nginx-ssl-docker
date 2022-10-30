@@ -25,6 +25,8 @@ services:
       - TZ=Europe/Paris
       - URL=forticas.com
       - SUBDOMAINS=www
+      - CERTPROVIDER=ZeroSSL
+      - EMAIL=houssem@forticas.com
     volumes:
       - ./config/swag:/config
     ports:
